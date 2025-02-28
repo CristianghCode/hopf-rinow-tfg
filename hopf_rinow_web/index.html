@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teorema de Hopf-Rinow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Teorema de Hopf-Rinow</h1>
+        <p>Recursos y herramientas para estudiar la demostración y su formalización.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#teorema">El Teorema</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#ejercicios">Ejercicios</a></li>
+            <li><a href="#codigo">Código</a></li>
+            <li><a href="#notas">Notas</a></li>
+        </ul>
+    </nav>
+
+    <section id="teorema">
+        <h2>El Teorema de Hopf-Rinow</h2>
+        <p>Este teorema establece equivalencias entre la completitud métrica, la conexidad por geodésicas y la compacidad de bolas geodésicas cerradas.</p>
+        <img src="teorema_hopf_rinow.png" alt="Esquema del teorema">
+    </section>
+
+    <section id="recursos">
+        <h2>Recursos de Estudio</h2>
+        <ul>
+            <li><a href="https://www.springer.com/gp/book/9780387901522" target="_blank">do Carmo - Riemannian Geometry</a></li>
+            <li><a href="https://leanprover.github.io/" target="_blank">Lean Theorem Prover</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Hopf%E2%80%93Rinow_theorem" target="_blank">Wikipedia: Hopf-Rinow</a></li>
+        </ul>
+    </section>
+
+    <section id="ejercicios">
+        <h2>Ejercicios Interactivos</h2>
+        <p>Prueba tus conocimientos sobre geodésicas, completitud y compacidad.</p>
+        <button onclick="alert('Ejercicio 1: ¿Qué significa que una variedad sea completa?')">Ejercicio 1</button>
+    </section>
+
+    <section id="codigo">
+        <h2>Formalización en Lean</h2>
+        <textarea id="code_area" placeholder="Escribe código en Lean aquí..."></textarea>
+        <button onclick="saveCode()">Guardar Código</button>
+    </section>
+
+    <section id="notas">
+        <h2>Notas Personales</h2>
+        <textarea id="notas_area" placeholder="Escribe tus notas aquí..."></textarea>
+        <button onclick="saveNotes()">Guardar Notas</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
